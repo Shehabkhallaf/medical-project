@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div>ContactUs</div>
+    <div className='container mt-5 pt-5'>ContactUs</div>
   )
 }

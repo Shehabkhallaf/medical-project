@@ -44,7 +44,7 @@ export default function Login() {
   
 
   return (
-    <div>
+    <div className='container mt-5 pt-5'>
       <h2 className='my-3'>Login Form</h2>
       {errorList.map((error ,index) => {
         if(index === 4)
