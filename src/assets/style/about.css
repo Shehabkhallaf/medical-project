@@ -3,6 +3,22 @@
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;  
-    height: 95vh;
+    height: 100vh;
+    position: relative;
+    
+}
+.about h3{
+    position: absolute;
+    font-weight: bolder;
+    left: 15%;
+    top:15%;
+}
+.about-content{
+    width:40%;
+    position: absolute;
+    top:40%;
+    left: 10%;
+    font-size: larger;
+    font-weight: bold;
     
 }

@@ -7,7 +7,7 @@ import logo4 from '../../assets/images/doking4.jpg';
 
 export default function DokingFor() {
   return (
-    <div className='doking-for w-100'>
+    <div className='container doking-for w-100'>
       <Carousel>
       <Carousel.Item interval={1000}>
         <h2 className='carousel-item-header'>Doking steps</h2>
