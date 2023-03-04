@@ -1,0 +1,58 @@
+.doking-for{
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+}
+.carousel-control-next-icon{
+    color: black;
+    background-color: black;
+}
+.Carousel.Item{
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    left: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #000000;
+    text-align: start;
+}
+.carousel-item-header{
+    position: absolute;
+    top: 9rem;
+}
+.table {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 10rem;
+    left: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #000000;
+    text-align: start;
+}
+.section1{
+    width: 30%;
+    position:absolute;
+}
+.section2{
+    position:absolute;
+    right: 20%;
+    top: -60%;
+}
+.section3{
+    position:absolute;
+    right: 40%;
+    bottom:15%;
+    right: 30%;
+}
