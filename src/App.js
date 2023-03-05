@@ -7,6 +7,8 @@ import ContactUs from './components/ContactUs/ContactUs'
 import DokingFor from './components/DokingFor/DokingFor'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
+import Footer from './components/Footer/Footer'
+
 import NotFoundPage from './components/NotFoundPage/NotFoundPage'
 import { useEffect, useState } from 'react';
 
@@ -41,6 +43,7 @@ function App() {
           <Route path='register' element={<Register />} />
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
+        <Footer/>
       </div>
     </div>
   );

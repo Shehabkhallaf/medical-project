@@ -1,0 +1,43 @@
+.footer {
+    background-color: rgb(68, 67, 67);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer p {
+    color: gray;
+}
+.project-team{
+    color: red;
+    font-weight:bolder;
+    font-size: 20px;;
+}
+.social {
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social span{
+    display: flex;
+    color: rgb(255, 255, 255);
+    border-radius: 90%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.copyrights{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
