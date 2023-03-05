@@ -5,7 +5,7 @@ import logo from '../../assets/images/logo.jpg'
 
 export default function Navbar() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light border-bottom">
+    <nav className="navbar fixed-top navbar-expand-lg">
     <div className="container-fluid">
       <img src={logo} alt="" />
       <Link className="navbar-brand fw-bolder" to="home">MDFDD</Link>
@@ -13,29 +13,29 @@ export default function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-          <li className="nav-item">
+        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li className="nav-item ms-auto">
             <Link className="nav-link" to="home">Home</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item ms-auto">
             <Link className="nav-link" to="about">About</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item ms-auto">
             <Link className="nav-link" to="doking-for">Doking</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item ms-auto">
             <Link className="nav-link" to="contact-us">Contact Us</Link>
           </li>
 
         </ul>
         <ul className="navbar-nav mb-2 mb-lg-0">
-          <li className="nav-item">
+          <li className="nav-item ms-auto">
             <Link className="nav-link" to="login">Login</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item ms-auto">
             <Link className="nav-link" to="register">Register</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item ms-auto">
             <Link className="nav-link">Log Out</Link>
           </li>
           

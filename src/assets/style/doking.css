@@ -1,21 +1,24 @@
-.doking-for{
+.doking-for {
     font-size: larger;
     font-weight: bolder;
     position: relative;
     width: 100%;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     color: black;
     background-color: black;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
     color: black;
     background-color: black;
 }
-.Carousel.Item{
+
+.Carousel.Item {
     position: relative;
 }
+
 .carousel-caption {
     position: absolute;
     right: 0;
@@ -26,10 +29,19 @@
     color: #000000;
     text-align: start;
 }
-.carousel-item-header{
-    position: absolute;
-    top: 9rem;
+
+.first-slider {
+    width: 40%;
 }
+
+.second-slider {
+    width: 40%;
+}
+
+.third-slider {
+    margin-bottom: 3rem;
+}
+
 .table {
     width: 50%;
     position: absolute;
@@ -41,18 +53,101 @@
     color: #000000;
     text-align: start;
 }
-.section1{
-    width: 30%;
-    position:absolute;
+
+.section1 {
+    width: 40%;
 }
-.section2{
-    position:absolute;
+
+.section2 {
+    position: absolute;
     right: 20%;
     top: -60%;
 }
-.section3{
-    position:absolute;
+
+.section3 {
+    position: absolute;
     right: 40%;
-    bottom:15%;
+    bottom: 15%;
     right: 30%;
 }
+
+@media (max-width: 1399.98px) {
+    .carousel-item-header {
+        position: absolute;
+        top: 6rem;
+    }
+
+    .third-slider {
+        position: absolute;
+        top: 7rem;
+    }
+    .section2{
+        width: 40%;
+    }
+    .section2 {
+        position: absolute;
+        right: 20%;
+        top: -67%;
+    }
+
+    .section3 {
+        position: absolute;
+        right: 40%;
+        bottom: 10%;
+        right: 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section2 {
+        font-size: 20px;
+        font-weight: 600;
+        right: 5%;
+    }
+    .section3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .third-slider {
+        position: absolute;
+        top: 4rem;
+    }
+
+    .first-slider {
+        width: 40%;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .second-slider {
+        width: 40%;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .section1{
+        font-size: 16px;
+        font-weight: 600;        
+    }
+    .section2 {
+        position: absolute;
+        right: 20%;
+        top: -70%;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .section3 {
+        position: absolute;
+        right: 40%;
+        bottom: 1%;
+        right: 30%;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 450px) {}

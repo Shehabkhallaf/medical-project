@@ -1,5 +1,9 @@
-
-nav img{
+.nav-link{
+    color: black;
+    font-size: larger;
+    font-weight:bold;
+}
+.navbar img{
     height: 3rem;
     width: 5rem;
 }
