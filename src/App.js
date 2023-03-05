@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
-import { Route, Routes, useNavigate ,Navigate } from 'react-router-dom'
+import { Route, Routes, useNavigate } from 'react-router-dom'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import ContactUs from './components/ContactUs/ContactUs'
@@ -15,11 +15,7 @@ import { useEffect, useState } from 'react';
 function App() {
   const [userData, setUserData] =useState(null)
   let navigate = useNavigate()
-  useEffect(()=>{
-    if(localStorage.getItem('user')){
-      getUserData()
-    }
-  },{})
+
     function getUserData(){
       setUserData(localStorage.getItem('user'))   
     }
@@ -31,24 +27,16 @@ function App() {
       setUserData(null)
       navigate('/login')
     }
-    function ProtectedRoute({childern}){
-      if(!localStorage.getItem('user')){
-        return <Navigate to='/login'/>
-      }
-      else{
-        return childern ;
-      }
-    }
   return (
     <div>
       <Navbar userData={userData} logOut={logOut}/>
       <div className=''>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='home' element={<ProtectedRoute><Home /></ProtectedRoute>} />
-          <Route path='about' element={<ProtectedRoute><About /></ProtectedRoute>} />
-          <Route path='contact-us' element={<ProtectedRoute><ContactUs /></ProtectedRoute>} />
-          <Route path='doking-for' element={<ProtectedRoute><DokingFor /></ProtectedRoute>} />
+          <Route path='home' element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='contact-us' element={<ContactUs />} />
+          <Route path='doking-for' element={<DokingFor />} />
           <Route path='login' element={<Login getUserData={getUserData}/>} />
           <Route path='register' element={<Register />} />
           <Route path='*' element={<NotFoundPage />} />
