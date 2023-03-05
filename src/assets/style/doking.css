@@ -18,35 +18,18 @@
 .Carousel.Item {
     position: relative;
 }
-
+.carousel-item-header{
+    position:absolute;
+    top:20%
+}
+.third-slider{
+    position:absolute;
+    top:20%
+}
 .carousel-caption {
     position: absolute;
     right: 0;
     top: 60%;
-    left: 3rem;
-    padding-top: 0;
-    padding-bottom: 0;
-    color: #000000;
-    text-align: start;
-}
-
-.first-slider {
-    width: 40%;
-}
-
-.second-slider {
-    width: 40%;
-}
-
-.third-slider {
-    margin-bottom: 3rem;
-}
-
-.table {
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 10rem;
     left: 3rem;
     padding-top: 0;
     padding-bottom: 0;
@@ -79,7 +62,8 @@
 
     .third-slider {
         position: absolute;
-        top: 7rem;
+        top: 20%;
+        bottom: 80%;
     }
     .section2{
         width: 40%;
@@ -99,6 +83,11 @@
 }
 
 @media (max-width: 1000px) {
+    .third-slider {
+        position: absolute;
+        top: 20%;
+        bottom: 80%;
+    }
     .section2 {
         font-size: 20px;
         font-weight: 600;
