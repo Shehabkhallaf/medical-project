@@ -41,7 +41,7 @@ export default function Navbar(props) {
             </> :
               <>
                 <li className="nav-item ms-auto">
-                  <span onClick={props.logOut} className="nav-link">Log Out</span>
+                  <span onClick={props.logOut} className="nav-link cursor-pointer">Log Out</span>
                 </li>
               </>}
 
