@@ -10,3 +10,41 @@
 h2 span{
     color: tomato;
 }
+.portfolio h2{
+    font-weight: bolder;
+}
+.section{
+    margin-bottom: 3rem;
+    box-shadow: 1px 1px 9px 0px rgb(202, 202, 202);
+    border-radius: 10px;
+    
+}
+.portfolio img{
+    width: 100%;
+    height: 100%;
+    transition: transform .8s;
+    overflow: hidden;
+}
+.section{
+    height: 400px;
+}
+.section-photo {
+    overflow: hidden;
+    height: 80%;
+    
+}
+.section-photo img{
+    height: 100%;
+
+}
+.section-photo img:hover{
+    transform: scale(1.5);
+}
+.portfolio p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.section-content{
+    padding: .5rem;
+    text-align: center;
+}
