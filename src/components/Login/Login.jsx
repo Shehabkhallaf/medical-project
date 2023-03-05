@@ -3,7 +3,7 @@ import Joi from 'joi';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 
-export default function Login() {
+export default function Login(props) {
   let navigate = useNavigate() ;
   const [isLoading ,setIsLoading] = useState(false)
   const [errorList ,setErrorList] = useState([])
@@ -19,16 +19,17 @@ export default function Login() {
   }
   function submitLogin(e){
     e.preventDefault();
-    let storedUser = localStorage.getItem("user"); 
     setIsLoading(true)
     let validateResult = validateLoginForm(user);
-    if(validateResult.error && !storedUser === user)
+    if(validateResult.error)
     {
       setIsLoading(false)
       setErrorList(validateResult.error.details)
       console.log(errorList)
     }
     else {
+      localStorage.setItem('user', JSON.stringify(user))
+      props.getUserData()
       setIsLoading(false)
       navigate('/home')
     }
