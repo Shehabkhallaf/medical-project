@@ -1,7 +1,7 @@
 .footer {
     background-color: rgb(68, 67, 67);
     text-align: center;
-    padding: 20px;
+    padding-top: 10px;
     box-sizing: border-box;
     width: 100%;
 }
@@ -12,7 +12,7 @@
 .project-team{
     color: red;
     font-weight:bolder;
-    font-size: 20px;;
+    font-size: 20px;
 }
 .social {
     display: flex;
@@ -31,7 +31,7 @@
     height: 20px;
     text-align: center;
     margin: 5px;
-    padding: 5px;
+    /* padding: 5px; */
     justify-content: center;
     align-items: center;
 }
@@ -40,4 +40,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.copyrights p{
+    margin: 0px 0px 0px;
+
 }

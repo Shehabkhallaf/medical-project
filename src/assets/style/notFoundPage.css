@@ -1,0 +1,15 @@
+.not-Found{
+    position: relative;
+}
+.not-Found-img{
+    height: 100vh;
+}
+.not-found-btn{
+    position: absolute;
+    top:73%;
+    right:45%;
+}
+.not-found-btn Link{
+    padding: 5px 15px;
+
+}
