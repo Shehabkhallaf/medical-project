@@ -31,19 +31,19 @@ export default function Navbar(props) {
           </ul>
           <ul className="navbar-nav mb-2 mb-lg-0">
 
-            {props.userData ? <>
+            {/* {props.userData ? <> */}
               <li className="nav-item ms-auto">
                 <Link className="nav-link" to="login">Login</Link>
               </li>
               <li className="nav-item ms-auto">
                 <Link className="nav-link" to="register">Register</Link>
               </li>
-            </> :
-              <>
+            {/* </> :
+              <> */}
                 <li className="nav-item ms-auto">
                   <span onClick={props.logOut} className="nav-link cursor-pointer">Log Out</span>
                 </li>
-              </>}
+              {/* </>} */}
 
 
 
