@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div class="footer fixed-bottom">
+    <div class="footer">
     <div class="social">
 
         <span><i class="fa-brands fa-facebook"></i></span>
