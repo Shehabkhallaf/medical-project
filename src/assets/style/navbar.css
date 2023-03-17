@@ -1,5 +1,5 @@
 .nav-link{
-    color: black;
+    color: #fff;
     font-size: larger;
     font-weight:bold;
 }
@@ -9,4 +9,14 @@
 }
 .cursor-pointer{
     cursor: pointer;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    margin: 0;
+    padding: 4px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
