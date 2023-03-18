@@ -3,10 +3,10 @@ import portfolio1 from '../../assets/images/portfolio1.jpg'
 import portfolio2 from '../../assets/images/portfolio2.jpg'
 import portfolio3 from '../../assets/images/portfolio3.jpg'
 import portfolio4 from '../../assets/images/portfolio4.jpg'
-
-
+import 'animate.css';
 
 export default function Home() {
+
     return (
         <div>
             <div className='header' id="hero">
@@ -14,23 +14,23 @@ export default function Home() {
                     <div className="carousel-inner container carousel carousel-fade">
                         <div className="carousel-item active">
                             <div className="carousel-container">
-                            <h2 className='animate__animated animate__fadeInDown'>Lorem, ipsum dolor.1</h2>
-                            <p className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
-                            <button className="btn-get-started animate__animated animate__fadeInUp">Read more</button>
+                                <h2 className='animate__animated animate__fadeInDown animate__backInDown'>Lorem, ipsum dolor.1</h2>
+                                <p className="animate__animated animate__fadeInUp animate__backInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
+                                <button className="btn-get-started animate__animated animate__fadeInUp animate__backInUp">Read more</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-container">
-                            <h2 className='animate__animated animate__fadeInDown'>Lorem, ipsum dolor.2</h2>
-                            <p className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
-                            <button className="btn-get-started animate__animated animate__fadeInUp">Read more</button>
+                                <h2 className='animate__animated animate__fadeInDown animate__backInDown'>Lorem, ipsum dolor.2</h2>
+                                <p className="animate__animated animate__fadeInUp animate__backInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
+                                <button className="btn-get-started animate__animated animate__fadeInUp animate__backInUp">Read more</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-container">
-                            <h2 className='animate__animated animate__fadeInDown'>Lorem, ipsum dolor.3</h2>
-                            <p className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
-                            <button className="btn-get-started animate__animated animate__fadeInUp">Read more</button>
+                                <h2 className='animate__animated animate__fadeInDown animate__backInDown'>Lorem, ipsum dolor.3</h2>
+                                <p className="animate__animated animate__fadeInUp animate__backInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
+                                <button className="btn-get-started animate__animated animate__fadeInUp animate__backInUp">Read more</button>
                             </div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@ export default function Home() {
                 </div>
 
             </div>
-            
-            <div class="portfolio">
+
+            <div class="portfolio animate__animated animate__backInUp">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center mb-5">
@@ -91,7 +91,40 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="rates">
+                <div class="container">
+                    <div class="rat">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="rate">
+                                    <h2>555</h2>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="rate">
+                                    <h2>222</h2>
+                                    <p>Projects Finished</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="rate">
+                                    <h2>444</h2>
+                                    <p>Awards Won</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="rate">
+                                    <h2>777</h2>
+                                    <p>Drinked Pepsi</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

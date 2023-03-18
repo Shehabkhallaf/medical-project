@@ -15,31 +15,12 @@
     position: relative;
     width: 100%;
 }
-.carousel-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.carousel-fade .carousel-item {
-    opacity: 0;
-    transition-property: opacity;
-    transform: none;
-}
 .carousel-item {
     position: relative;
     display: none;
     float: left;
     width: 100%;
     margin-right: -100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: transform .6s ease-in-out;
 }
 .carousel-container h2 {
     color: #fff;
@@ -55,28 +36,6 @@
     margin: 0 auto 30px auto;
     color: #fff;
 }
-.animate__fadeInUp{
-    animation-name: fadeInUp;
-    animation-duration: 2s;
-    position: relative;
-    animation-timing-function: ease-out;
-    animation-fill-mode: both;
-}
-.animate__fadeInDown{
-    animation-name: fadeInDown;
-    animation-duration: 2s;
-    position: relative;
-    animation-timing-function: ease-out;
-    animation-fill-mode: both;
-}
-@keyframes fadeInUp {
-    from {bottom: -300px;}
-    to {bottom: 0;}
-  }
-  @keyframes fadeInDown {
-    from {top: -300px;}
-    to {top: 0;}
-  }
 .btn-get-started {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -95,6 +54,8 @@
 }
 .portfolio{
     margin: 3rem 0;
+    transition: 0.5s;
+animation-delay: 0.8s;
 }
 .portfolio h2{
     font-weight: bolder;
@@ -102,8 +63,7 @@
 .section{
     margin-bottom: 3rem;
     box-shadow: 1px 1px 9px 0px rgb(202, 202, 202);
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
 .portfolio img{
     width: 100%;
@@ -113,7 +73,6 @@
 }
 .section{
     height: 400px;
-    animation-name: fadeInUp;
     animation-duration: 2s;
     position: relative;
 }
@@ -127,7 +86,7 @@
 
 }
 .section-photo img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2) rotate(5deg);
 }
 .portfolio p{
     font-size: 1rem;
@@ -136,4 +95,28 @@
 .section-content{
     padding: .5rem;
     text-align: center;
+}
+.rates{
+    background-color: rgb(139, 139, 179) ;
+    background-size: cover;
+    background-position: center center; 
+    margin: 3rem 0rem;
+    color: white;
+    background-color: rgb(158, 188, 192);
+    position: relative;
+    background-attachment: fixed;
+}
+.rate{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    padding: 7rem 0rem;
+}
+.rate h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.rate p{
+    font-size: 20px;
+    font-weight: 700;
 }
