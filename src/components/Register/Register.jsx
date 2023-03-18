@@ -49,7 +49,7 @@ export default function Rigester() {
   }
 
   return (
-    <div className='container mt-5 pt-5'>
+    <div className=' form container mt-5 pt-5'>
       <h2 className='my-3'>Register Form</h2>
       {errorList.map((error ,index) => {
         if(index === 4)
