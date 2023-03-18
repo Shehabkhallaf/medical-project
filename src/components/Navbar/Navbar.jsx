@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 export default function Navbar(props) {
 
   return (
-    <nav className="navbar f navbar-expand-lg fixed-top d-flex align-items-center header-transparent">
-      <div className="container-fluid container d-flex justify-content-between align-items-center">
+    <nav className="navbar navbar-expand-lg fixed-top">
+      <div className="container-fluid container">
         {/* <img src={logo} alt="" /> */}
         <Link className="navbar-brand fw-bolder logo" to="home">MDFDD</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
