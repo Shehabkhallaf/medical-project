@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       <Navbar userData={userData} logOut={logOut}/>
-      <div className=''>
+      <div id='container'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='home' element={<Home />} />
@@ -43,7 +43,7 @@ function App() {
           <Route path='register' element={<Register />} />
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
-        <Footer/>
+        <Footer id='footer'/>
       </div>
     </div>
   );
