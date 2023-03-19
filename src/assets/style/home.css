@@ -130,14 +130,15 @@ animation-delay: 0.8s;
     text-align: center;
 }
 .rates{
-    background-color: rgb(139, 139, 179) ;
+    background-image: url(../images/Hader-bg1.jpg);
     background-size: cover;
     background-position: center center; 
-    margin-top: 3rem ;
+    margin-top: 1rem ;
     color: white;
     background-color: rgb(158, 188, 192);
     position: relative;
     background-attachment: fixed;
+    margin-bottom: 3rem;
 }
 .rate{
     text-align: center;
