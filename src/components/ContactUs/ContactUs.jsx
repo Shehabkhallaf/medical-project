@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactUs() {
   return (
     <div className='contact-us container mt-5 pt-5 px-4'>
-      <h2 className='m-5 pt-5'>Contact us</h2>
+      <h2 className='m-5 pt-5 animate__animated animate__flip'>Contact us</h2>
       <div className="row gx-5">
         <div className="col">
           <div className=" row gx-1 mb-4 text-center">
@@ -29,15 +29,15 @@ export default function ContactUs() {
         </div>
         <div className="col shadow-lg p-3 bg-body-tertiary rounded">
           <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label ms-3">Email address</label>
+            <label htmlFor="exampleFormControlInput1" className="form-label ms-3">Email address</label>
             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
           </div>
           <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label ms-3">Subject</label>
+            <label htmlFor="exampleFormControlInput1" className="form-label ms-3">Subject</label>
             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
           </div>
           <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label ms-3">Message</label>
+            <label htmlFor="exampleFormControlTextarea1" className="form-label ms-3">Message</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div className="d-flex justify-content-center">

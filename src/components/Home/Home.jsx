@@ -14,21 +14,21 @@ export default function Home() {
                     <div className="carousel-inner container carousel carousel-fade">
                         <div className="carousel-item active">
                             <div className="carousel-container">
-                                <h2 className='animate__animated animate__fadeInDown animate__backInDown'>Lorem, ipsum dolor.1</h2>
+                                <h2 className='animate__animated animate__backInDown'>Lorem, ipsum dolor.1</h2>
                                 <p className="animate__animated animate__fadeInUp animate__backInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
                                 <button className="btn-get-started animate__animated animate__fadeInUp animate__backInUp">Read more</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-container">
-                                <h2 className='animate__animated animate__fadeInDown animate__backInDown'>Lorem, ipsum dolor.2</h2>
+                                <h2 className='animate__animated animate__backInDown'>Lorem, ipsum dolor.2</h2>
                                 <p className="animate__animated animate__fadeInUp animate__backInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
                                 <button className="btn-get-started animate__animated animate__fadeInUp animate__backInUp">Read more</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-container">
-                                <h2 className='animate__animated animate__fadeInDown animate__backInDown'>Lorem, ipsum dolor.3</h2>
+                                <h2 className='animate__animated animate__backInDown'>Lorem, ipsum dolor.3</h2>
                                 <p className="animate__animated animate__fadeInUp animate__backInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum dignissimos quibusdam dicta, animi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, harum?</p>
                                 <button className="btn-get-started animate__animated animate__fadeInUp animate__backInUp">Read more</button>
                             </div>
@@ -46,15 +46,15 @@ export default function Home() {
 
             </div>
 
-            <div className="portfolio animate__animated animate__backInUp">
+            <div className="portfolio">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center mb-5">
-                            <h2>PORTFOLIO</h2>
+                            <h2 className='animate__animated animate__flip'>PORTFOLIO</h2>
                             <p className="content-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row animate__animated animate__fadeInUpBig">
                         <div className="col-lg-3">
                             <div className="section">
                                 <div className="section-photo"><img src={portfolio1} alt="" /></div>
