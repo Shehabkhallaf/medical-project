@@ -4,20 +4,22 @@
     padding-top: 10px;
     box-sizing: border-box;
     width: 100%;
-    position: absolute;
-   left: 0;
-   bottom: 0;
-   z-index: 999;
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999; */
 }
 
 .footer p {
     color: gray;
 }
-.project-team{
+
+.project-team {
     color: red;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 20px;
 }
+
 .social {
     display: flex;
     box-sizing: border-box;
@@ -27,7 +29,7 @@
     display: flex;
 }
 
-.social span{
+.social span {
     display: flex;
     color: rgb(255, 255, 255);
     border-radius: 90%;
@@ -39,13 +41,15 @@
     justify-content: center;
     align-items: center;
 }
-.copyrights{
+
+.copyrights {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.copyrights p{
+
+.copyrights p {
     margin: 0px 0px 0px;
 
 }
