@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div className='h-100 container mt-5 pt-5 px-4'>
+    <div className='contact-us container mt-5 pt-5 px-4'>
       <h2 className='m-5 pt-5'>Contact us</h2>
       <div className="row gx-5">
         <div className="col">
