@@ -8,7 +8,7 @@ export default function ContactUs() {
         <div className="col">
           <div className=" row gx-1 mb-4 text-center">
             <div className="col pt-3 shadow-lg p-3 bg-body-tertiary rounded">
-              <i class="fa-solid fa-location-dot fs-3 p-3 border rounded-circle"></i>
+              <i className="fa-solid fa-location-dot fs-3 p-3 border rounded-circle"></i>
               <h3>Our Address</h3>
               <p>Assuit University</p>
             </div>
@@ -41,7 +41,7 @@ export default function ContactUs() {
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div className="d-flex justify-content-center">
-            <input class="btn btn-submit" type="submit" value="Send Message"></input>
+            <input className="btn btn-submit" type="submit" value="Send Message"></input>
           </div>
         </div>
 

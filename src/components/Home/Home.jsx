@@ -46,46 +46,46 @@ export default function Home() {
 
             </div>
 
-            <div class="portfolio animate__animated animate__backInUp">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center mb-5">
+            <div className="portfolio animate__animated animate__backInUp">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 text-center mb-5">
                             <h2>PORTFOLIO</h2>
-                            <p class="content-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p className="content-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="section">
-                                <div class="section-photo"><img src={portfolio1} alt="" /></div>
-                                <div class="section-content">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <div className="section">
+                                <div className="section-photo"><img src={portfolio1} alt="" /></div>
+                                <div className="section-content">
                                     <h4>Lorem impsum dolor</h4>
                                     <p><span>Lorem, ipsum. </span>18 Sep. 2018</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="section">
-                                <div class="section-photo"><img src={portfolio2} alt="" /></div>
-                                <div class="section-content">
+                        <div className="col-lg-3">
+                            <div className="section">
+                                <div className="section-photo"><img src={portfolio2} alt="" /></div>
+                                <div className="section-content">
                                     <h4>Lorem impsum dolor</h4>
                                     <p><span>Lorem, ipsum. </span>18 Sep. 2018</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="section">
-                                <div class="section-photo"><img src={portfolio3} alt="" /></div>
-                                <div class="section-content">
+                        <div className="col-lg-3">
+                            <div className="section">
+                                <div className="section-photo"><img src={portfolio3} alt="" /></div>
+                                <div className="section-content">
                                     <h4>Lorem impsum dolor</h4>
                                     <p><span>Lorem, ipsum. </span>18 Sep. 2018</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="section">
-                                <div class="section-photo"><img src={portfolio4} alt="" /></div>
-                                <div class="section-content">
+                        <div className="col-lg-3">
+                            <div className="section">
+                                <div className="section-photo"><img src={portfolio4} alt="" /></div>
+                                <div className="section-content">
                                     <h4>Lorem impsum dolor</h4>
                                     <p><span>Lorem, ipsum. </span>18 Sep. 2018</p>
                                 </div>
@@ -96,30 +96,30 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class="rates">
-                <div class="container">
-                    <div class="rat">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="rate">
+            <div className="rates">
+                <div className="container">
+                    <div className="rat">
+                        <div className="row">
+                            <div className="col-lg-3">
+                                <div className="rate">
                                     <h2>555</h2>
                                     <p>Happy Clients</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="rate">
+                            <div className="col-lg-3">
+                                <div className="rate">
                                     <h2>222</h2>
                                     <p>Projects Finished</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="rate">
+                            <div className="col-lg-3">
+                                <div className="rate">
                                     <h2>444</h2>
                                     <p>Awards Won</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="rate">
+                            <div className="col-lg-3">
+                                <div className="rate">
                                     <h2>777</h2>
                                     <p>Drinked Pepsi</p>
                                 </div>
@@ -127,20 +127,6 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="clearfix">
-                <img src="..." class="col-md-6 float-md-end mb-3 ms-md-3" alt="..." />
-                <p>
-                    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-                </p>
-
-                <p>
-                    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-                </p>
-
-                <p>
-                    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-                </p>
             </div>
         </div>
     )
