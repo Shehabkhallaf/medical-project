@@ -2,8 +2,50 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div className='h-100'>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae nemo consectetur corrupti quos corporis quae officiis! Cupiditate odio aperiam libero unde numquam placeat voluptate quia, possimus animi laudantium! Quaerat, libero, molestiae saepe repellendus at dolores, doloribus quasi tempora optio natus mollitia eum inventore labore! Minus laudantium accusamus perspiciatis eius dolores neque ut labore hic nesciunt incidunt. Obcaecati vel dolores explicabo quasi nemo sint quidem sit natus? Hic quia cupiditate totam accusantium nisi, obcaecati numquam ducimus in, tenetur culpa officiis excepturi earum? At, dolorum quidem fugiat rerum nobis a eveniet corporis autem vero qui ab cupiditate blanditiis quod, sunt earum consequatur quas ratione libero illum? Saepe, recusandae, exercitationem qui minus vitae harum, repellendus voluptatem veniam dolores suscipit perferendis dicta. Assumenda nihil deserunt, sit ipsam eveniet voluptatem culpa officia repellendus error numquam. Architecto neque nobis iste suscipit fuga quaerat cum illo, voluptates dicta excepturi saepe nulla rem similique vel, pariatur eaque vitae asperiores minus laudantium quod minima? Nihil aperiam optio provident veritatis? Molestiae rerum dolore reprehenderit voluptatum non enim quidem. Harum, aperiam aut inventore magnam distinctio molestias numquam. Illo eaque architecto necessitatibus exercitationem facere autem hic voluptatibus atque consequuntur consequatur neque, possimus reprehenderit quia nisi, quisquam ipsum inventore totam rem officia expedita odit ullam a nihil? Consequuntur neque nesciunt harum molestiae obcaecati, delectus consequatur. Eius quibusdam aspernatur quidem officia, assumenda error quod consequatur quo accusantium, ea fuga harum unde totam! Eum quod maxime ipsum corrupti tempore ipsam pariatur laboriosam nobis omnis nemo aperiam facere maiores libero corporis dolore hic delectus beatae, ratione sapiente adipisci natus incidunt est nesciunt magni. Quisquam dolore unde amet quae, voluptatem ducimus temporibus minus commodi nemo itaque eius labore, molestiae placeat fugiat veritatis accusantium molestias doloribus aspernatur. Eaque iusto quibusdam sunt quas et recusandae, repudiandae ullam nihil inventore aliquam sint quos nemo deleniti. Rerum hic magnam quaerat officiis.</p>
+    <div className='h-100 container mt-5 pt-5 px-4'>
+      <h2 className='m-5 pt-5'>Contact us</h2>
+      <div className="row gx-5">
+        <div className="col">
+          <div className=" row gx-1 mb-4 text-center">
+            <div className="col pt-3 shadow-lg p-3 bg-body-tertiary rounded">
+              <i class="fa-solid fa-location-dot fs-3 p-3 border rounded-circle"></i>
+              <h3>Our Address</h3>
+              <p>Assuit University</p>
+            </div>
+          </div>
+          <div className=" row gx-1 p-1 text-center">
+            <div className="col pt-3 shadow-lg p-3 bg-body-tertiary rounded me-3">
+              <i className="fa-regular fa-envelope fs-3 p-3 border rounded-circle"></i>
+              <h3>Email Us</h3>
+              <p>info@example.com</p>
+            </div>
+            <div className="col pt-3 shadow-lg p-3 bg-body-tertiary rounded">
+              <i className="fa-solid fa-phone-volume fs-3 p-3 border rounded-circle"></i>
+              <h3>Call Us</h3>
+              <p>+201111111111</p>
+            </div>
+          </div>
+
+        </div>
+        <div className="col shadow-lg p-3 bg-body-tertiary rounded">
+          <div className="mb-3">
+            <label for="exampleFormControlInput1" className="form-label ms-3">Email address</label>
+            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+          </div>
+          <div className="mb-3">
+            <label for="exampleFormControlInput1" className="form-label ms-3">Subject</label>
+            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+          </div>
+          <div className="mb-3">
+            <label for="exampleFormControlTextarea1" className="form-label ms-3">Message</label>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div className="d-flex justify-content-center">
+            <input class="btn btn-submit" type="submit" value="Send Message"></input>
+          </div>
+        </div>
+
+      </div>
     </div>
   )
 }
