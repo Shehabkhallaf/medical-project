@@ -13,7 +13,7 @@ export default function Footer() {
 
     </div>
     <div className="">
-        <p className=' copyrights'>Copy Right 2018 © By <h3 className='project-team p-3'>Computer Sciense Team</h3> All Rights Reserved</p>
+        <p className=' copyrights'>Copy Right 2018 © By <span className='project-team p-3 fs-6'>Computer Sciense Team</span> All Rights Reserved</p>
     </div>
 
 </div>

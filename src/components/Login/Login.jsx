@@ -45,7 +45,7 @@ export default function Login(props) {
 
 
   return (
-    <div className='d-flex justify-content-around align-items-center form'>
+    <div className='d-flex justify-content-around align-items-center form min-container-height'>
       <div className='container mt-5 pt-5'>
         <h2 className='my-3'>Login Form</h2>
         {errorList.map((error, index) => {

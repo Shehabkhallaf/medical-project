@@ -22,8 +22,8 @@ function App() {
       setUserData(localStorage.getItem('user'))   
     }
     useEffect(()=>{
-
     },[userData])
+
     function logOut(){
       localStorage.removeItem('user')
       setUserData(null)
@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       <Navbar userData={userData} logOut={logOut}/>
-      <div id='container'>
+      <div id='container min-container-height'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='home' element={<Home />} />
