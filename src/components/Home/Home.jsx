@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center mb-5">
-                            <h2 className='animate__animated animate__flip'>PORTFOLIO</h2>
+                            <h2 className='content-header animate__animated animate__flip'>PORTFOLIO</h2>
                             <p className="content-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -126,6 +126,22 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="skills d-flex justfiy-content-center align-items-center">
+                <h2 className='content-header animate__animated animate__flip'>Our Skills</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora tenetur ipsum minima rerum dolorem libero ab sequi a facere!</p>
+                <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-success" style="width: 25%"></div>
+                </div>
+                <div className="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-info" style="width: 50%"></div>
+                </div>
+                <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+                <div className="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-danger" style="width: 100%"></div>
                 </div>
             </div>
         </div>
